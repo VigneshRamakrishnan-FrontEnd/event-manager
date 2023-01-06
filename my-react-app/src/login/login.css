@@ -1,0 +1,54 @@
+.container-fluid {
+  background-color: #de027e;
+  height: 100vh;
+}
+body {
+  margin-top: -48px;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  padding: 30px;
+}
+/* .log {
+  margin: 20px 0px 0px 15px;
+  padding: 5px;
+} */
+button {
+  background-color: black;
+  color: beige;
+}
+/* .b {
+  padding-top: 20px;
+  margin-left: 10px;
+} */
+:root {
+  --main-bg: #de027e;
+}
+
+.main-bg {
+  background: var(--main-bg) !important;
+}
+
+input:focus,
+button:focus {
+  border: 1px solid var(--main-bg) !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--main-bg) !important;
+  border-color: var(--main-bg) !important;
+}
+
+.card,
+.btn,
+input {
+  border-radius: 0 !important;
+}
+.card {
+  margin-top: 50px;
+}

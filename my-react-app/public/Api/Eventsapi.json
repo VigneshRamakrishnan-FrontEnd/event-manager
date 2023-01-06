@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Welcome Dance",
+    "person": "IT Department",
+    "starttime": "10.00.00",
+    "endtime": "10.15.00"
+  },
+  {
+    "name": "Poem",
+    "person": "CSE Department",
+    "starttime": "10.15.00",
+    "endtime": "10.20.00"
+  },
+  {
+    "name": "Group Action Songs",
+    "person": "students",
+    "starttime": "10.20.00",
+    "endtime": "10.30.00"
+  },
+  {
+    "name": "Group Action Songs",
+    "person": "students",
+    "starttime": "10.20.00",
+    "endtime": "10.30.00"
+  },
+  {
+    "name": "Solo Songs",
+    "person": "Staff",
+    "starttime": "10.30.00",
+    "endtime": "10.40.00"
+  },
+  {
+    "name": "Group Act",
+    "person": "EEE Department",
+    "starttime": "10.40.00",
+    "endtime": "11.00.00"
+  }
+]

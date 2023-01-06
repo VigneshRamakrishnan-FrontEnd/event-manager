@@ -1,0 +1,84 @@
+body {
+  background-color: #141619;
+}
+
+input {
+  margin: 10px;
+}
+.w1 {
+  position: fixed;
+  background-color: hwb(0deg 0% 100% / 94%);
+  margin-left: 645px;
+  color: white;
+  padding-top: 48px;
+}
+
+.map {
+  padding-top: 370px;
+  margin-right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  color: antiquewhite;
+}
+.box {
+  width: 25%;
+  padding: 20px;
+}
+
+/* for mobile  */
+
+@media only screen and (min-width: 320px) {
+  .map {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .whole {
+    width: 100%;
+    text-align: center;
+  }
+  .w1 {
+    color: white;
+    margin-left: 50px;
+  }
+  .box {
+    width: 100%;
+  }
+}
+/* for tablet  */
+
+@media only screen and (min-width: 768px) {
+  .w1 {
+    margin-left: 275px;
+  }
+  .map {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+  }
+
+  .box {
+    width: 48%;
+  }
+}
+
+/* for laptop  */
+
+@media only screen and (min-width: 1024px) {
+  .w1 {
+    margin-left: 405px;
+  }
+  .map {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+  }
+  .box {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .w1 {
+    margin-left: 625px;
+  }
+}
